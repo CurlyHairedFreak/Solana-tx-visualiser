@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    font-family: 'Inknut Antiqua', serif;
+    @apply text-gray-50
+  }
+}
